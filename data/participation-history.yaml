@@ -1,0 +1,72 @@
+"entries":
+  - "participation_id": "PART-2025-001"
+    "programme_id": "BIP-SUFOWIMA-01"
+    "name": "Dreaming of a Green Christmas"
+    "programme_type": "BIP"
+    "country": "Belgium"
+    "location": "Kortrijk"
+    "participation_period": "2025-11"
+    "ects": 3
+    "ects_awarded": null
+    "participation_status": "participated"
+    "programme_url": "https://run.eu/products/bip-sufowima-01"
+    "description": "Previous RUN-EU Blended Intensive Programme participation."
+    "skills_and_learning": []
+    "notes": "Period and ECTS are prefilled from previous planning context; confirm exact dates and
+      whether credits were formally awarded."
+  - "participation_id": "PART-1793638646224"
+    "programme_id": ""
+    "name": "Engineering Applications in Python – 3rd edition"
+    "programme_type": "SAP"
+    "country": "Ireland"
+    "location": "Limerick"
+    "participation_period": "2024-06"
+    "ects": 3
+    "ects_awarded": null
+    "participation_status": "participated"
+    "programme_url": "https://run-eu.eu/2024/04/17/sap-engineering-applications-in-python-3rd-edition/"
+    "description": ""
+    "skills_and_learning": []
+    "notes": ""
+  - "participation_id": "PART-1793638698337"
+    "programme_id": ""
+    "name": "Hack Your Device, Fundamentals of Cyber Security"
+    "programme_type": "BIP"
+    "country": "Ireland"
+    "location": "Limerick"
+    "participation_period": "2024-05"
+    "ects": null
+    "ects_awarded": null
+    "participation_status": "participated"
+    "programme_url": ""
+    "description": ""
+    "skills_and_learning": []
+    "notes": ""
+  - "participation_id": "PART-1793638753748"
+    "programme_id": ""
+    "name": "DESIGNING STEAM PROJECTS"
+    "programme_type": "BIP"
+    "country": "Spain"
+    "location": "Burgos"
+    "participation_period": "2025-03"
+    "ects": 3
+    "ects_awarded": null
+    "participation_status": "participated"
+    "programme_url": "https://run-eu.eu/2024/12/18/sap-designing-steam-projects-for-pre-university-students/"
+    "description": ""
+    "skills_and_learning": []
+    "notes": ""
+  - "participation_id": "PART-1793638807035"
+    "programme_id": ""
+    "name": "Speak, Lead, Succeed!"
+    "programme_type": "BIP"
+    "country": "Finland"
+    "location": "Hameenlina"
+    "participation_period": "2025-09"
+    "ects": 1
+    "ects_awarded": null
+    "participation_status": "participated"
+    "programme_url": "https://run.eu/products/lex-speaklea-01"
+    "description": ""
+    "skills_and_learning": []
+    "notes": ""

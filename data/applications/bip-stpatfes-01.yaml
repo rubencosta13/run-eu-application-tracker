@@ -1,0 +1,149 @@
+"programme":
+  "id": "BIP-STPATFES-01"
+  "name": "St Patrick's Day, Food and Festivals"
+  "type": "BIP"
+  "country": "Ireland"
+  "location": "Limerick"
+  "ects": 5
+  "url": "https://run.eu/products/bip-stpatfes-01"
+  "application_deadline": "2026-12-04"
+  "online_sessions":
+    - "2027-02-23"
+    - "2027-03-02"
+    - "2027-03-09"
+  "in_person":
+    "start": "2027-03-15"
+    "end": "2027-03-19"
+  "eligibility_notes":
+    - "Confirm the current call's eligibility criteria with RUN-EU and your home institution."
+  "verification":
+    "status": "verify_before_submission"
+    "last_checked": null
+    "notes": "Prefilled from the earlier planning discussion. Confirm dates, location, ECTS, eligibility
+      and funding against the live call."
+  "tags":
+    - "sustainability"
+    - "festivals"
+    - "food"
+    - "tourism"
+    - "international"
+"shared_question_refs":
+  - "participation-history"
+"application":
+  "id": "APP-2027-001"
+  "status": "preparing"
+  "submitted_at": null
+  "outcome": "pending"
+  "outcome_received_at": null
+  "outcome_feedback": ""
+  "application_reference": ""
+  "contact_person": ""
+  "notes": ""
+"questions":
+  - "id": "Q-001"
+    "order": 1
+    "wording": "Have you ever participated in a RUN-EU Short Learning Opportunity? No / Yes (please name
+      all the Short Learning Opportunity/ies you have attended) *\n"
+    "type": "long_text"
+    "required": true
+    "options": []
+    "answer_history":
+      - "revision": 1
+        "created_at": "2026-11-02"
+        "answer": "Yes:\ 
+
+          I've participated in the following projects:
+
+
+          Hack Your Device, Fundamentals of Cyber Security
+
+          Engineering Applications in Python – 3rd edition
+
+          DESIGNING STEAM PROJECTS
+
+          Speak, Lead, Succeed!
+
+          Dreaming of a Green Christmas"
+        "submitted": true
+        "notes": ""
+        "submitted_at": "2026-11-02"
+    "current_revision": 1
+  - "id": "Q-002"
+    "order": 2
+    "wording": "What is your motivation for applying to this RUN-EU Short Learning Opportunity? What do
+      you want to learn from this RUN-EU Short Learning Opportunity? *\n"
+    "type": "long_text"
+    "required": true
+    "options": []
+    "answer_history":
+      - "revision": 1
+        "created_at": "2026-11-02"
+        "answer": "My motivation to apply for this BIP comes from trying to understand how festivals
+          contribute to preserving cultural identity, strengthening community participation and how
+          it supports the local community and its development. I value immensely the opportunity to
+          work with people from different cultural backgrounds, exchange perspectives and learn from
+          their experiences. With this programme, i hope to better understand the relationship of
+          tourism, cultural traditions and sustainability, while improving my communication and
+          teamwork skills"
+        "submitted": false
+        "notes": "First Draft"
+    "current_revision": 1
+  - "id": "Q-003"
+    "order": 3
+    "wording": "What is your field of study or research area? *\n"
+    "type": "long_text"
+    "required": true
+    "options": []
+    "answer_history":
+      - "revision": 1
+        "created_at": "2026-11-02"
+        "answer": "I'm currently finishing my BSc in Computer Science. However I see myself pursuing an
+          academic path related to "
+        "submitted": false
+        "notes": "TBD"
+      - "revision": 2
+        "created_at": "2026-11-02"
+        "answer": "I'm currently finishing my BSc in Computer Science"
+        "submitted": true
+        "notes": ""
+        "submitted_at": "2026-11-02"
+    "current_revision": 2
+  - "id": "Q-004"
+    "order": 4
+    "wording": "Please describe any special conditions or requirements if you have. *\n"
+    "type": "long_text"
+    "required": true
+    "options": []
+    "answer_history":
+      - "revision": 1
+        "created_at": "2026-11-02"
+        "answer": "N/A"
+        "submitted": true
+        "notes": ""
+        "submitted_at": "2026-11-02"
+    "current_revision": 1
+  - "id": "Q-005"
+    "order": 5
+    "wording": "Why do you want to take part in this BIP, and how does it relate to your studies or
+      future career? *\n"
+    "type": "long_text"
+    "required": true
+    "options": []
+    "answer_history":
+      - "revision": 1
+        "created_at": "2026-11-02"
+        "answer": "Despite my academic background being in Computer Science I understand that learning
+          beyond my field is important professionally and personally. With this BIP I hope to
+          combine my technical and past projects' experiences with "
+        "submitted": false
+        "notes": ""
+    "current_revision": 1
+  - "id": "Q-006"
+    "order": 6
+    "wording": "Outline a festival or food tradition from your own country or region. What makes it
+      appealing to visitors, and how could it be made more sustainable? *\n"
+    "type": "long_text"
+    "required": true
+    "options": []
+    "answer_history": []
+    "current_revision": 0

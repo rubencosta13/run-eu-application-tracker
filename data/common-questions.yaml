@@ -1,0 +1,15 @@
+# Shared question prompts that may appear across multiple programme applications.
+# Store the exact wording asked by each programme in that application's YAML file.
+questions:
+  - id: "participation-history"
+    title: "Previous RUN-EU opportunities"
+    purpose: "Provide a consistent, reusable record of RUN-EU programmes the applicant has actually participated in."
+    suggested_prompt: "Please list the RUN-EU opportunities you have previously participated in."
+    data_source: "data/participation-history.yaml"
+    export_formats:
+      - markdown
+      - csv
+    guidance:
+      - "Include only opportunities actually attended, not applications that are pending, rejected or withdrawn."
+      - "Keep the exact answer submitted in each application's answer_history."
+      - "Adapt the exported list if the form asks for specific details or a word limit."
