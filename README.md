@@ -32,6 +32,7 @@ yarn dev
 - Update application status, submission details, outcome and feedback.
 - Add programme-specific questions with different question types.
 - Append answer revisions and mark the exact submitted revision. Earlier revisions are preserved.
+- Export each programme's questions and submitted answers as a Markdown archive from its application workspace.
 - Maintain participation history independently from applications.
 - Export participated/completed opportunities as Markdown or CSV.
 - Maintain reusable answer-library entries.
