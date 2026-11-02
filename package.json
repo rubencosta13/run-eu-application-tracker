@@ -10,7 +10,7 @@
     "start": "node dist-server/index.js",
     "build:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --minify",
     "build:client": "vite build --config vite.config.ts",
-    "test": "tsx --test src/client/revisions.test.ts",
+    "test": "tsx --test src/client/revisions.test.ts src/client/exports.test.ts",
     "typecheck": "tsc --noEmit",
     "build": "yarn typecheck && yarn build:css && yarn build:client && tsc -p tsconfig.server.json"
   },

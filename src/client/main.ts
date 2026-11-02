@@ -8,8 +8,32 @@ import {
 } from "./actions.js";
 import { openApplicationForm, openLibraryForm, openParticipationForm } from "./features/forms.js";
 import { renderApplications } from "./features/dashboard.js";
+import { buildSubmittedAnswersMarkdown } from "./exports.js";
 import { state } from "./types.js";
 import { $, closeModal, notify, saveDownload, switchView } from "./ui.js";
+
+function exportSubmittedAnswers(target: Element): boolean {
+  const button = target.closest<HTMLElement>("[data-export-submitted]");
+  if (!button) return false;
+
+  const item = state.apps.find(
+    (application) => application._file === button.dataset.exportSubmitted,
+  );
+  if (!item) {
+    notify("Programme not found. Refresh and try again.");
+    return true;
+  }
+
+  const { programme } = item;
+  const filenameBase = (programme.id || programme.name || "programme")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  const filename = `${filenameBase || "programme"}-submitted-answers.md`;
+  saveDownload(filename, buildSubmittedAnswersMarkdown(item), "text/markdown");
+  notify("Submitted answers exported as Markdown.");
+  return true;
+}
 
 function exportParticipationMarkdown(): void {
   const entries = state.participation.entries.filter((entry) =>
@@ -55,6 +79,7 @@ function handleDocumentClick(event: MouseEvent): void {
   if (!(event.target instanceof Element)) return;
   const target = event.target;
 
+  if (exportSubmittedAnswers(target)) return;
   if (handleFeatureClick(target)) return;
   if (handleApplicationClick(target)) return;
   if (handleCollectionClick(target)) return;
