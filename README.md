@@ -20,10 +20,11 @@ Open <http://127.0.0.1:4173>.
 For development with automatic server restart:
 
 ```bash
+yarn build
 yarn dev
 ```
 
-After changing Tailwind classes in `public/` or `src/input.css`, run `yarn build:css` again.
+`yarn dev` watches and restarts the server. After changing browser code or styles, run `yarn build` to refresh the client build.
 
 ## Features
 
@@ -46,10 +47,15 @@ run-eu-local-tracker/
 │   ├── participation-history.yaml
 │   ├── common-questions.yaml
 │   └── answer-library.yaml
-├── public/                    # Dashboard HTML, JS and compiled Tailwind CSS
+├── public/                    # Dashboard HTML and generated stylesheet input
+├── src/client/                # Typed browser entry point and feature modules
+│   └── features/              # Dashboard, application, and form features
+├── src/server/                # Typed API, YAML persistence, and HTTP server
 ├── src/input.css              # Tailwind entry point and custom components
+├── dist/                      # Generated browser build
+├── dist-server/               # Generated server build
 ├── package.json
-└── server.mjs                 # Local API + static server
+└── vite.config.ts             # Browser build configuration
 ```
 
 ## Data model

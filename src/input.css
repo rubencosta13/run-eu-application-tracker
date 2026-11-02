@@ -1,5 +1,6 @@
 @import "tailwindcss";
-@source "../public/**/*.{html,js}";
+@source "../public/**/*.html";
+@source "./client/**/*.ts";
 
 :root { color-scheme: dark; }
 body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
